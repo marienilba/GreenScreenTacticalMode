@@ -105,9 +105,7 @@ class TacticalModeTemplate {
       wba?.writeInt16BE(this.id);
 
       this.backgroundColor = raw.readInt32BE();
-      let color = this.RGBoToInt(
-        hex_to_RGB(hex_arg) ?? { r: 0, g: 177, b: 64 }
-      ); // set the args colors, green by default
+      let color = this.RGBoToInt(hex_to_RGB(hex_arg) ?? hex_to_RGB("#669999")!); // set the args colors, green by default
       wba?.writeInt32BE(color);
 
       numGroundCells = raw.readInt8();
