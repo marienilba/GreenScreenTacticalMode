@@ -1,0 +1,21 @@
+{
+  "name": "tactical-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "typescript": "^4.8.2"
+  }
+}
