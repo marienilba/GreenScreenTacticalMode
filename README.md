@@ -12,6 +12,6 @@ The default color is dark cyan - #669999, but there's no perfect color, you can 
 
 **Run locally**
 
-    git clone https://github.com/maelnilba/GreenScreenTacticalMode.git
+    git clone https://github.com/marienilba/GreenScreenTacticalMode.git
     npm install
     npm run start #00b140
